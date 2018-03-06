@@ -1,0 +1,23 @@
+header {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  align-items: end;
+  border-bottom: .3rem solid darkgrey;
+}
+
+h1 {
+  grid-column: 1/span 2;
+  margin-left: 1rem;
+  color: orange;
+}
+
+nav {
+  grid-column: 5/ span 2;
+}
+
+nav a {
+  text-decoration: none;
+  color: darkgrey;
+  font-size:
+}
